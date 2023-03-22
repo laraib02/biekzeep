@@ -1,0 +1,179 @@
+body{
+    color: #505e6b;
+    font-family: sans-serif !important;
+}
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo img{
+    width: 15%;
+}
+#header i{
+    color: #16a8aa;
+}
+#header a{
+    color: #16a8aa;
+}
+#header a:hover{
+    color: #14305d;
+}
+#logo{
+    height: 30px;
+}
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #16a8aa;
+} */
+.navbar-light .navbar-nav .nav-link {
+    color: #14305d !important;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #16a8aa !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #16a8aa !important;
+   
+}
+#header-button{
+    background-color:#14305d ;
+}
+#header-button span{
+    font-size: 20px;
+}
+#baneer-color{
+    background-color: #14315f;
+    height: 100vh;
+    position: relative;
+}
+#baneer-img{
+    background-image: url('../img/business-meeting-in-modern-conference-room-e1638180914840.jpg');
+    /* height: 100vh; */
+    /* width: 100%; */
+    position: relative;
+}
+#position{
+    position: absolute;
+}
+#banner-card-btn{
+    background-color:#16a8aa ;
+}
+#team-img img{
+    object-fit: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.781);
+}
+#team-card{
+    position: absolute;
+}
+#position #banner-card-btn:hover{
+    background-color: #14315f;
+    /* margin-top: 40px; */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.404);
+}
+/* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #16a8aa;
+} */
+@media screen and (max-width: 900px) {
+    #icons , #side-btn{display: none;}
+    
+  }
+.team-about{
+    border-bottom: 4px #16a8aa solid;
+    width: 33%;
+}
+.check-circle i{
+    color: #16a8aa;
+}
+#sec-banner #banner-card-btn:hover{
+    background-color: #14315f;
+    /* margin-top: 40px; */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.404);
+}
+#enterpenur-img{
+    /* right: 0; */
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.781);
+    height: 100%    ;
+    object-fit: cover;
+
+}
+.who-we-are{
+    border-bottom: 4px #16a8aa solid;
+    width: 25%;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #16a8aa;
+    transition: width .6s ease;
+}
+.check-icon i{
+    color: #16a8aa;
+}
+#view-btn button{
+    background-color: #16a8aa;
+    color: white;
+}
+#view-btn button:hover{
+    color: black;
+    background-color: white;   
+}
+.Services{
+    border-bottom: 4px #16a8aa solid;
+    width: 12%;
+}
+.baneer{
+    margin-top: -9px;
+}
+.nav-container{
+    margin-top: -8px;
+}
+#services-btn button{
+    background-color: #16a8aa;
+    color: white;
+}
+#services-btn button:hover{
+   color: white;   
+   background-color: #14315f;
+}
+#bussiness-card{
+    height: 300px;
+    /* width: 100%; */
+    position: relative;
+    
+}
+#bussiness-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#services-card1{
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    background-color: #FFFFFF;
+    padding: 40px 30px 40px 30px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+#services-card1:hover{
+margin-top: 30px;
+box-shadow: 0px 3px 5px 0px #14315f79;
+}
+@media screen and (max-width: 900px) {
+    #bussiness-card{margin: 0;}
+    #bussiness-card{ margin-top: 20%; margin-bottom: 20%;}
+  }
+  .choose-us{
+    background-color: #061938;
+  }
