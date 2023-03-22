@@ -21,6 +21,10 @@ html{
 #header a:hover{
     color: #14305d;
 }
+.header-border{
+
+    border-bottom: 1px solid  #DDDDDD42;
+}
 #logo{
     height: 30px;
 }
