@@ -1,33 +1,42 @@
-body{
+body {
     color: #505e6b;
     font-family: sans-serif !important;
 }
-*{
+
+* {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-#logo img{
+
+#logo img {
     width: 15%;
 }
-#header i{
+
+#header i {
     color: #16a8aa;
 }
-#header a{
+
+#header a {
     color: #16a8aa;
 }
-#header a:hover{
+
+#header a:hover {
     color: #14305d;
 }
-.header-border{
 
-    border-bottom: 1px solid  #DDDDDD42;
+.header-border {
+
+    border-bottom: 1px solid #DDDDDD42;
 }
-#logo{
+
+#logo {
     height: 30px;
 }
+
 /* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #16a8aa;
 } */
@@ -35,83 +44,106 @@ html{
     color: #14305d !important;
     font-weight: 600;
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
     color: #16a8aa !important;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: #16a8aa !important;
-   
+
 }
-#header-button{
-    background-color:#14305d ;
+
+#header-button {
+    background-color: #14305d;
 }
-#header-button span{
+
+#header-button span {
     font-size: 20px;
 }
-#baneer-color{
+
+#baneer-color {
     background-color: #14315f;
     height: 100vh;
     position: relative;
 }
-#baneer-img{
+
+#baneer-img {
     background-image: url('../img/business-meeting-in-modern-conference-room-e1638180914840.jpg');
     /* height: 100vh; */
     /* width: 100%; */
     position: relative;
 }
-#position{
+
+#position {
     position: absolute;
 }
-#banner-card-btn{
-    background-color:#16a8aa ;
+
+#banner-card-btn {
+    background-color: #16a8aa;
 }
-#team-img img{
+
+#team-img img {
     object-fit: cover;
     height: 100vh;
     position: relative;
     width: 100%;
     box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.781);
 }
-#team-card{
+
+#team-card {
     position: absolute;
 }
-#position #banner-card-btn:hover{
+
+#position #banner-card-btn:hover {
     background-color: #14315f;
     /* margin-top: 40px; */
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.404);
     -webkit-transition: all .5s ease-out;
 }
+
 /* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #16a8aa;
 } */
 @media screen and (max-width: 900px) {
-    #icons , #side-btn{display: none;}
-    
-  }
-.team-about{
+
+    #icons,
+    #side-btn {
+        display: none;
+    }
+
+}
+
+.team-about {
     border-bottom: 4px #16a8aa solid;
     width: 33%;
 }
-.check-circle i{
+
+.check-circle i {
     color: #16a8aa;
 }
-#sec-banner #banner-card-btn:hover{
+
+#sec-banner #banner-card-btn:hover {
     background-color: #14315f;
     /* margin-top: 40px; */
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.404);
     -webkit-transition: all .5s ease-out;
 }
-#enterpenur-img{
+
+#enterpenur-img {
     /* right: 0; */
     box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.781);
-    height: 100%    ;
+    height: 100%;
     object-fit: cover;
 
 }
-.who-we-are{
+
+.who-we-are {
     border-bottom: 4px #16a8aa solid;
     width: 25%;
 }
+
 .progress-bar {
     display: flex;
     flex-direction: column;
@@ -123,49 +155,60 @@ html{
     background-color: #16a8aa;
     transition: width .6s ease;
 }
-.check-icon i{
+
+.check-icon i {
     color: #16a8aa;
 }
-#view-btn button{
+
+#view-btn button {
     background-color: #16a8aa;
     color: white;
 }
-#view-btn button:hover{
+
+#view-btn button:hover {
     color: black;
-    background-color: white;   
+    background-color: white;
     -webkit-transition: all .5s ease-out;
 }
-.Services{
+
+.Services {
     border-bottom: 4px #16a8aa solid;
     width: 12%;
 }
-.baneer{
+
+.baneer {
     margin-top: -9px;
 }
-.nav-container{
+
+.nav-container {
     margin-top: -8px;
 }
-#services-btn button{
+
+#services-btn button {
     background-color: #16a8aa;
     color: white;
 }
-#services-btn button:hover{
-   color: white;   
-   background-color: #14315f;
+
+#services-btn button:hover {
+    color: white;
+    background-color: #14315f;
 }
-#bussiness-card{
+
+#bussiness-card {
     height: 300px;
     /* width: 100%; */
     position: relative;
-    
+
 }
-#bussiness-card img{
+
+#bussiness-card img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
+
 }
-#services-card1{
+
+#services-card1 {
     position: absolute;
     left: 12%;
     top: 50%;
@@ -173,20 +216,44 @@ html{
     padding: 40px 30px 40px 30px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
-#services-card1:hover{
-margin-top: 30px;
-box-shadow: 0px 3px 5px 0px #14315f79;
--webkit-transition: all .5s ease-out;
+
+#services-card1:hover {
+    margin-top: 30px;
+    box-shadow: 0px 3px 5px 0px #14315f79;
+    -webkit-transition: all .5s ease-out;
 }
+
 @media screen and (max-width: 900px) {
-    #bussiness-card{margin: 0;}
-    #bussiness-card{ margin-top: 20%; margin-bottom: 20%;}
-  }
-  .choose-us{
+    #bussiness-card {
+        margin: 0;
+    }
+
+    #bussiness-card {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
+
+.choose-us {
     background-color: #061938;
     padding: 20px;
-  }
-   .choose-us h5{
+}
+
+.choose-us h5 {
     border-bottom: 4px #16a8aa solid;
     width: 30%;
-  } 
+}
+
+.choose-container {
+    position: relative;
+}
+.choose-absolute-container{
+    position: absolute;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    top: 110%;
+}
+.counter-section{
+    
+}
