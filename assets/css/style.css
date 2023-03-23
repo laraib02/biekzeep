@@ -16,6 +16,10 @@ html {
     width: 15%;
 }
 
+#header{
+   font-size: 14px;
+}
+
 #header i {
     color: #16a8aa;
 }
@@ -42,7 +46,7 @@ html {
 } */
 .navbar-light .navbar-nav .nav-link {
     color: #14305d !important;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
@@ -60,7 +64,7 @@ html {
 }
 
 #header-button span {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #baneer-color {
@@ -71,17 +75,17 @@ html {
 
 #baneer-img {
     background-image: url('../img/business-meeting-in-modern-conference-room-e1638180914840.jpg');
-    /* height: 100vh; */
+    height: 100vh;
     /* width: 100%; */
     position: relative;
 }
 
 #position {
     position: absolute;
-    margin-top: 6%;
+    margin-top: 3%;
 }
 .header-links{
-     padding: 3.5%;
+     padding: 4%;
 } 
 
 #banner-card-btn {
@@ -185,7 +189,7 @@ html {
 }
 
 .nav-container {
-    margin-top: -8px;
+    /*margin-top: -8px;*/
 }
 
 #services-btn button {
@@ -259,8 +263,8 @@ html {
     top: 110%;
 }
 .cases-heading{
-    border-bottom: 4px #16a8aa solid;
-    width: 25%; 
+    /*border-bottom: 4px #16a8aa solid;*/
+    /*width: 25%; */
     color: #14305d;
 }
 .cases-container{
