@@ -264,21 +264,54 @@ html {
     padding-top: 3%;
     top: 110%;
 }
-.cases-heading{
-    /*border-bottom: 4px #16a8aa solid;*/
-    /*width: 25%; */
-    color: #14305d;
+.case-heading{
+    border-bottom:4px #16a8aa solid ;
+    width: 9%;
+    margin-left: 45%;
 }
 .cases-container{
     margin-top: 15%;
     text-align: center;
+    position: relative;
 }
 .Testimonials{
     /* background-image: url('../img/Untitled-2.jpg'); */
     background-color:#061938;
     height: 100vh;
     padding-top: 20%;
+    position: relative;
+    margin-top: 20%;
 }
+.case-absolute{
+ position: absolute; 
+ top:-40% ; 
+ left: 0;
+}
+.case-absolute img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+   
+}
+.case-absolute-hover{
+    position: relative;
+}
+.case-absolute-hover img{
+    position: relative;
+}
+.case-absolute-hover div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+    padding-top: 50px;
+    padding: 20px;
+    display: none;
+}
+/* .case-absolute-hover div img:hover{
+    display: block;
+} */
 .Testimonials h5{
     border-bottom: 4px #16a8aa solid;
     width: 20%; 
@@ -317,5 +350,10 @@ html {
   @media screen and (min-width: 1400px) {
     #position{
         margin-top: 5%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .cases-container{
+        margin-top: 60%;
     }
 }

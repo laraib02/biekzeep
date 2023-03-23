@@ -21,7 +21,13 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <!-- JavaScript -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+    <script>
+        function hover(){
+            var abc = document.getElementById("case-absolute-hover");
+                abc.innerHTML.display = "block";
+        }
+     
+    </script>
 </head>
 
 <body>
@@ -546,13 +552,10 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center  cases-container">
-        <div class="row text-center">
-            <h5 class="cases-heading">
+    <div class="container-fluid  cases-container">
+            <h5 class="case-heading text-center">
                 Our Cases
             </h5>
-            <div class="p-1 bg-success w-25"></div>
-        </div>
         <h2 style="color: #14305d;" class="">
             Let’s See Our Latest Project
         </h2>
@@ -634,20 +637,32 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+        <div class="container-fluid case-absolute">
+            <div class="row ">
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12 case-absolute-hover" onmouseover="hover(this)">
+                    <img src="assets/img/financial-services-e1638180715159.jpg" alt="" class=" ">
+                    <div style="background-color: #14305dc0;" class=" h-100 pt-5" >
+                        <h4 class="text-white pt-5">
+                            Investment Management
+                        </h4>
+                        <p class="text-light">
+                            Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        </p>
 
-            </div>
-            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
-                
-            </div>
-            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
-                
-            </div>
-            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
-                
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                    <img src="assets/img/business-team-collaboration-discussing-working-analysis-with-financial-data-and-marketing-growth-e1638181040353.jpg" alt="" class="">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                    <img src="assets/img/financial-statistics-e1638180991833.jpg" alt="" class="">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                    <img src="assets/img/business-team-casual-collaboration-discussing-working-analysis-with-financial-data-and-marketing-e1638180979952.jpg" alt="" class="">
+                </div>
             </div>
         </div>
+        
     </div>
 
     <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
@@ -659,6 +674,7 @@
         });
 
     </script>
+    
 
     <!--    <script src="assets/js/jquery.counterup.min.js"></script>-->
     <!--    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>-->
