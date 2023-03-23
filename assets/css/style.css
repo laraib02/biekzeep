@@ -78,7 +78,11 @@ html {
 
 #position {
     position: absolute;
+    margin-top: 6%;
 }
+.header-links{
+     padding: 3.5%;
+} 
 
 #banner-card-btn {
     background-color: #16a8aa;
