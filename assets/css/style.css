@@ -269,6 +269,15 @@ html {
     width: 9%;
     margin-left: 45%;
 }
+.process-heading{
+    border-bottom:4px #16a8aa solid ;
+    width: 12%;
+    margin-left: 44%;
+}
+.process-container{
+    margin-top: 8%;
+    text-align: center;
+}
 .cases-container{
     margin-top: 15%;
     text-align: center;
@@ -356,4 +365,48 @@ html {
     .cases-container{
         margin-top: 60%;
     }
+}
+.color-numbers{
+    background-color: #16a8aa;
+    color: white;
+    border-radius: 100%;
+    line-height: 50px;   
+    padding: 10px;
+}
+.border-div{
+    line-height: 50px;   
+    margin-top: 3%;
+    border-top: 2px dashed #16a8aa52;
+}
+@media screen and (max-width: 1200px) {
+    .number-container{
+        display: none;
+    }
+}
+.process-cards{
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.process-cards:hover{
+    box-shadow: 0px 3px 15px 0px #16a8aa52;
+    margin-top: 20px;
+    -webkit-transition: all .5s ease-out;
+}
+.video-bg{
+    background-image: url(../img/team-of-cheerful-business-people-in-meeting-e1638180830256.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    margin-top: 8%;
+    background-size: cover;
+    background-position: center;
+}
+.video-color{
+    background-color: #061938da;
+    height: 80vh;
+
+}
+.video-color i{
+color: #16a8aa;
+font-size: 50px;
+padding: 20px;
+border-radius: 50px;
 }
