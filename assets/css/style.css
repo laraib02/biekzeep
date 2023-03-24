@@ -1,7 +1,7 @@
 body {
     color: #505e6b;
     font-family: sans-serif !important;
-   
+
 }
 
 * {
@@ -17,8 +17,8 @@ html {
     width: 15%;
 }
 
-#header{
-   font-size: 14px;
+#header {
+    font-size: 14px;
 }
 
 #header i {
@@ -48,7 +48,7 @@ html {
 .navbar-light .navbar-nav .nav-link {
     color: #14305d !important;
     font-weight: 500;
-    font-family:  var(--e-global-typography-253c853-font-family ), Sans-serif;
+    font-family: var(--e-global-typography-253c853-font-family), Sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
@@ -86,9 +86,10 @@ html {
     position: absolute;
     margin-top: 3%;
 }
-.header-links{
-     padding: 4%;
-} 
+
+.header-links {
+    padding: 4%;
+}
 
 #banner-card-btn {
     background-color: #16a8aa;
@@ -116,10 +117,11 @@ html {
 /* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #16a8aa;
 } */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
 
-    #icons,
-    #side-btn {
+    #header #icons a i,
+    #side-btn,
+    .case-absolute {
         display: none;
     }
 
@@ -257,58 +259,69 @@ html {
 .choose-container {
     position: relative;
 }
-.choose-absolute-container{
+
+.choose-absolute-container {
     position: absolute;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     padding-bottom: 3%;
     padding-top: 3%;
     top: 110%;
 }
-.case-heading{
-    border-bottom:4px #16a8aa solid ;
+
+.case-heading {
+    border-bottom: 4px #16a8aa solid;
     width: 9%;
     margin-left: 45%;
 }
-.process-heading{
-    border-bottom:4px #16a8aa solid ;
+
+.process-heading {
+    border-bottom: 4px #16a8aa solid;
     width: 12%;
     margin-left: 44%;
 }
-.process-container{
+
+.process-container {
     margin-top: 8%;
     text-align: center;
 }
-.cases-container{
+
+.cases-container {
     margin-top: 15%;
     text-align: center;
     position: relative;
 }
-.Testimonials{
+
+.Testimonials {
     /* background-image: url('../img/Untitled-2.jpg'); */
-    background-color:#061938;
+    background-color: #061938;
     height: 100vh;
     padding-top: 20%;
     position: relative;
     margin-top: 20%;
 }
-.case-absolute{
- position: absolute; 
- top:-40% ; 
- left: 0;
+
+.case-absolute {
+    position: absolute;
+    top: -40%;
+    left: 0;
 }
-.case-absolute img{
+
+.case-absolute img {
     width: 100%;
-    height: 70vh;
+    height: 65vh;
     object-fit: cover;
-   
+
 }
-.case-absolute-hover{
+
+.case-absolute-hover {
     position: relative;
 }
-.case-absolute-hover img{
+
+.case-absolute-hover img {
     position: relative;
 }
-.case-absolute-hover div{
+
+.case-absolute-hover div {
     position: absolute;
     left: 0;
     top: 0;
@@ -318,19 +331,21 @@ html {
     padding: 20px;
     display: none;
 }
+
 /* .case-absolute-hover div img:hover{
     display: block;
 } */
-.Testimonials h5{
+.Testimonials h5 {
     border-bottom: 4px #16a8aa solid;
-    width: 20%; 
+    width: 20%;
     color: #ffffff;
 }
+
 .carousel {
     background: #ffffff;
-  }
-  
-  .carousel-cell {
+}
+
+.carousel-cell {
     width: 100%;
     /* height: ; */
     background: rgb(255, 255, 255);
@@ -339,59 +354,86 @@ html {
     line-height: 30px;
     padding: 20px 20px;
     margin: 30px;
-  }
-  
-  /* cell number */
-  .carousel-cell:before {
+}
+
+/* cell number */
+.carousel-cell:before {
     display: block;
     text-align: center;
     /* content: counter(gallery-cell); */
     line-height: 200px;
     font-size: 80px;
     /* color: white; */
-  }
-  .carousel-cell img{
+}
+
+.carousel-cell img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
     margin-top: 20px;
-  }
-  @media screen and (min-width: 1400px) {
-    #position{
+}
+
+@media screen and (min-width: 1400px) {
+    #position {
         margin-top: 5%;
     }
 }
-@media screen and (max-width: 900px) {
-    .cases-container{
+
+@media screen and (max-width: 1000px) {
+    .cases-container {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cases-container {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width: 633px) {
+    .cases-container {
         margin-top: 60%;
     }
 }
-.color-numbers{
+
+@media screen and (max-width: 400px) {
+    .cases-container {
+        margin-top: 140%;
+    }
+}
+
+.color-numbers {
     background-color: #16a8aa;
     color: white;
     border-radius: 100%;
-    line-height: 50px;   
+    line-height: 50px;
     padding: 10px;
 }
-.border-div{
-    line-height: 50px;   
+
+.border-div {
+    line-height: 50px;
     margin-top: 3%;
     border-top: 2px dashed #16a8aa52;
 }
+
 @media screen and (max-width: 1200px) {
-    .number-container{
+    .number-container {
         display: none;
     }
 }
-.process-cards{
+
+.process-cards {
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
-.process-cards:hover{
+
+.process-cards:hover {
     box-shadow: 0px 3px 15px 0px #16a8aa52;
     margin-top: 20px;
     -webkit-transition: all .5s ease-out;
 }
-.video-bg{
+
+.video-bg {
     background-image: url(../img/team-of-cheerful-business-people-in-meeting-e1638180830256.jpg);
     height: 80vh;
     background-attachment: fixed;
@@ -399,14 +441,149 @@ html {
     background-size: cover;
     background-position: center;
 }
-.video-color{
+
+.video-color {
     background-color: #061938da;
     height: 80vh;
+    text-align: center;
 
 }
-.video-color i{
-color: #16a8aa;
-font-size: 50px;
-padding: 20px;
-border-radius: 50px;
+
+.video-color i {
+    color: #16a8aa;
+    font-size: 20px;
+    /* padding-left: 40px; */
+    padding: 28px;
+    border-radius: 100%;
+    /* height: 10px; */
 }
+
+.video-color div {
+    padding-top: 50px;
+}
+
+.video-color i:hover {
+    box-shadow: 0px 3px 15px 0px #16a8aacb;
+}
+
+.video-color button {
+    background-color: #16a8aa;
+    color: white;
+}
+
+.video-color button:hover {
+    background-color: white;
+    color: #14305d;
+    /* margin-top: 40px; */
+    box-shadow: 0px 3px 15px 0px #16a8aacb;
+    -webkit-transition: all .5s ease-out;
+}
+
+.blog-container {
+    margin-top: 10%;
+}
+
+.blog-container h5 {
+    border-bottom: 4px #16a8aa solid;
+    width: 10%;
+    margin-left: 44%;
+    padding: 4px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0.25rem;
+}
+.blog-cards{
+    text-align: left;
+
+}
+.blog-cards strong{
+    font-size: 20px;
+}
+.blog-cards strong a:hover{
+    color: #16a8aa;
+}
+.blog-cards .card:hover{
+    box-shadow:  0px 3px 15px 0px #16a8aa34;
+    -webkit-transition: all .5s ease-out;
+    margin-top: 30px;
+}
+
+.footer img{
+    width: 80%;
+}
+.footer-quick-links h4{
+border-bottom:3px solid #16a8aa;
+width: 88%;
+padding: 10px;
+}
+.footer-quick-links a:hover{
+    color: #16a8aa;
+    -webkit-transition: all .5s ease-out;
+}
+.footer-quick-links a{
+    color: #ffffff;
+}
+.footer-useful-links h4{
+    border-bottom:3px solid #16a8aa;
+width: 91%;
+padding: 10px;
+}
+.footer-useful-links a:hover{
+    color: #16a8aa;
+    -webkit-transition: all .5s ease-out;
+}
+.footer-useful-links a{
+    color: #ffffff;
+}
+.footer-timming h4{
+    border-bottom:3px solid #16a8aa;
+width: 42%;
+padding: 10px;
+color: #fff;
+}
+.footer-timming button{
+background-color: #16a8aa;
+color: #fff;
+}
+.footer-timming button:hover{
+    background-color: #ffffff;
+    color:#16a8aa;
+    -webkit-transition: all .5s ease-out;
+    }
+    .footer-container{
+        padding-bottom: 110px;
+        border-bottom: 1px solid #DDDDDD42;
+    }
+    .subscribed-position{
+        position: absolute;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        /* top: -10; */
+        background-color: white;
+        left: 8%;
+        top: -20%;
+        padding: 50px;
+    }
+    .subscribed-position h4{
+        color: #14305d;
+    }
+    .footer{
+        position: relative;
+        background-color: #061938;
+        margin-top: 20%;
+        padding-top: 13%;
+        text-align: left;
+    }
+    @media screen and (max-width: 1200px) {
+        .subscribed-position {
+            display: none;
+        }
+    }  
