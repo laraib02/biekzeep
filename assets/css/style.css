@@ -110,7 +110,7 @@ html {
 
 .team-about {
     border-bottom: 4px #16a8aa solid;
-    width: 31%;
+    /* width: 31%; */
 }
 
 .check-circle i {
@@ -132,7 +132,6 @@ html {
 
 .who-we-are {
     border-bottom: 4px #16a8aa solid;
-    width: 19%;
 }
 
 .progress-bar {
@@ -164,7 +163,6 @@ html {
 
 .Services {
     border-bottom: 4px #16a8aa solid;
-    width: 11%;
 }
 
 .baneer {
