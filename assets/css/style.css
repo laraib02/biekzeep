@@ -597,3 +597,25 @@ html {
     }
 
 }
+
+
+/* service style sheet  */
+.baner-img-service{
+    background-image: url('../img/managers-working-with-financial-chart-e1638180766443.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+.baner-color-service{
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.services-baner-text{
+   padding-top: 200px;
+}
+
+
+
