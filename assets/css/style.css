@@ -70,7 +70,7 @@ html {
 
 #baneer-color {
     background-color: #14315f;
-    height: 100vh;
+    height: 660px;
     position: relative;
 }
 
@@ -120,7 +120,9 @@ html {
 
 .team-about {
     border-bottom: 4px #16a8aa solid;
-    width: 30%;
+    width: 26%;
+    padding: 8px 0px;
+}
 }
 
 .check-circle i {
