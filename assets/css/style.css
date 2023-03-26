@@ -597,6 +597,22 @@ html {
     }
 
 }
+@media screen and (max-width: 1200px) {
+
+    .Make-Appointment {
+        height: auto;
+    }
+    .appointment-description{
+        display: none;
+    }
+    .process-container{
+        padding-top: 25%;
+    }
+    .absolute-carousel .carousel .carousel-cell{
+        /* width: 100%; */
+        display: none;
+    }
+}
 
 
 /* service style sheet  */
