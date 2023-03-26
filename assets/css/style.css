@@ -619,10 +619,19 @@ html {
 .Make-Appointment{
     background-color: #14305d; 
     margin-top: 20%;
+    height: 588px;
 }
 .Make-Appointment-container{
     padding-top: 10%;
+    
 }
+.form{
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.233);
+    padding: 50px;
+    /* padding-top: 100px   ; */
+    padding-bottom: 90px;
+}
+
 .Make-Appointment-container input {
     padding: 15px;
 }
@@ -631,15 +640,91 @@ html {
 } .Make-Appointment-container textarea{
     padding: 15px;
 }
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eaeaeacb;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.form-select{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e); */
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #eaeaeacb;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.form button{
+        background-color: #16a8aa;
+        color: #fff;
+}
+    .form button:hover {
+        background-color:#14305d;
+        color:white;
+        -webkit-transition: all .5s ease-out;
+        box-shadow: 0px 3px 15px 0px #16a8aa86;
+    }
+    .appointment-heading{
+        border-bottom: 3px solid #16a8aa;
+    }
+    .appointment-description{
+        padding-left: 50px;
+    }
+    
+    .flickity-prev-next-button.previous {
+        display: none;
+    }
+    .flickity-prev-next-button.next {
+        display: none;
+    }
+    .flickity-page-dots{
+        display: none;
+    }
+    .testimonials-bg-img{
+        background-image: url('../img/portrait-of-successful-business-team-working-in-office-2-e1638180907680.jpg');
+        height: 500px;
+        background-position: 0px 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 6%;
+    }
+    .testimonials-bg-clr{
+        opacity: 0.75;
+        height: 500px;
+        background-color: #061835;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+    .testimonials-text span {
+        border-bottom: 3px solid #16a8aa;
+       
+    }
+    .testimonials-text{
+        padding-top: 8%;
+    }
