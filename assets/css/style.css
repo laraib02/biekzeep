@@ -300,10 +300,10 @@ html {
 .carousel-cell {
     width: 100%;
     background: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 1px;
     line-height: 30px;
     padding: 20px 20px;
-    margin: 30px;
+    margin: 15px;
 }
 
 .carousel-cell:before {
@@ -714,12 +714,14 @@ html {
         background-size: cover;
         background-attachment: fixed;
         margin-top: 6%;
+        position: relative;  
     }
     .testimonials-bg-clr{
         opacity: 0.75;
         height: 500px;
         background-color: #061835;
         transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        position: relative;
     }
     .testimonials-text span {
         border-bottom: 3px solid #16a8aa;
@@ -727,4 +729,9 @@ html {
     }
     .testimonials-text{
         padding-top: 8%;
+    }
+    .absolute-carousel{
+        position: absolute;
+        top: 64%;
+        left: 8%;
     }
