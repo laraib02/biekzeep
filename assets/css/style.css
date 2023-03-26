@@ -616,6 +616,30 @@ html {
 .services-baner-text{
    padding-top: 200px;
 }
+.Make-Appointment{
+    background-color: #14305d; 
+    margin-top: 20%;
+}
+.Make-Appointment-container{
+    padding-top: 10%;
+}
+.Make-Appointment-container input {
+    padding: 15px;
+}
+.Make-Appointment-container select{
+    padding: 15px;
+} .Make-Appointment-container textarea{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
