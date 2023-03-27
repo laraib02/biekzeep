@@ -491,7 +491,7 @@ html {
     position: absolute;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     background-color: white;
-    left: 16%;
+    left: 8%;
     top: -20%;
     padding: 50px;
 }
@@ -558,9 +558,12 @@ html {
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1340px) {
     #position {
         margin-top: 5%;
+    }
+    .subscribed-position{
+        margin-left: 0%;
     }
 }
 
@@ -747,7 +750,5 @@ html {
         padding-top: 8%;
     }
     .absolute-carousel{
-        position: absolute;
-        top: 65%;
-        left: 100px;
+       margin-top: -12%;
     }
