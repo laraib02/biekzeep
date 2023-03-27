@@ -563,7 +563,10 @@ html {
         margin-top: 5%;
     }
     .subscribed-position{
-        margin-left: 0%;
+        margin-left: 7%;
+    }
+    absolute-carousel{
+        margin-top: -8%;
     }
 }
 
@@ -751,4 +754,7 @@ html {
     }
     .absolute-carousel{
        margin-top: -12%;
+    }
+    Our-Pricing-container h5{
+        border-bottom: 4px #16a8aa solid;
     }
