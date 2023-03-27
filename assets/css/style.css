@@ -232,7 +232,10 @@ html {
     border-bottom: 4px #16a8aa solid;
     /* margin-left: 45%; */
 }
-
+.card-p-border{
+    border-bottom: 1px #dbe1e7 solid;
+    padding-bottom: 10px;
+}
 .process-heading {
     border-bottom: 4px #16a8aa solid;
 }
@@ -572,7 +575,7 @@ html {
         margin-left: 7.5%;
     }
     .absolute-carousel{
-        margin-top: -4% !important;
+        margin-top: -6% !important;
     }
 }
 
@@ -761,6 +764,34 @@ html {
     .absolute-carousel{
        margin-top: -12%;
     }
-    Our-Pricing-container h5{
+    .our-pricing-heading{
         border-bottom: 4px #16a8aa solid;
+    }
+    .our-pricing-container{
+        margin-top: 15%;
+    }
+    .our-pricing-links a{
+        color: #14305d;
+    }
+    .our-pricing-links a:hover{
+        color:#16a8aa;
+        -webkit-transition: all .5s ease-out;
+    }
+    .our-pricing-button{
+        background-color: #16a8aa; 
+        color: #ffffff;
+    }
+    .our-pricing-button1{
+        background-color: #16a8aa; 
+        color: #ffffff;
+    }
+    .our-pricing-button:hover{
+        background-color:#14305d; 
+        color: #ffffff;
+        box-shadow: 0px 0px 10px 0px #16a8aa6b;
+    }
+    .our-pricing-button1:hover{
+        background-color:#ffffff; 
+        color:#14305d;
+        box-shadow: 0px 0px 10px 0px #16a8aa6b;
     }
