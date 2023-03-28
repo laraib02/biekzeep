@@ -45,9 +45,34 @@ html {
 .navbar-light .navbar-nav .nav-link {
     color: #14305d !important;
     font-weight: 500;
+    font-size: 14px;
+    margin-left: 8px;
     font-family: var(--e-global-typography-253c853-font-family), Sans-serif;
 }
-
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem;
+    clear: both;
+    font-weight: 500;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none;
+    background-color:#16a8aa;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color:#16a8aa;
+    font-weight: 600;
+    /* background-color: ; */
+}
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     color: #16a8aa !important;
@@ -55,7 +80,25 @@ html {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #16a8aa !important;
+    font-weight: 600;
 
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 11rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px 0px rgba(128, 128, 128, 0.555);
 }
 
 #header-button {
@@ -83,7 +126,7 @@ html {
 }
 
 .header-links {
-    padding: 4%;
+    padding: 3%;
 }
 
 #banner-card-btn {
@@ -887,4 +930,135 @@ html {
 .case-absolute-hoverpage div:hover{
     opacity: 0.75;
     transition: 0.5s;
+}
+/* about style  */
+
+.baner-img-about {
+    background-image: url('../img/successful-business-team-at-office-e1638180890109.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-about {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.about-baner-text {
+    padding-top: 200px;
+}
+.about-img-bg{
+    background-image:url(../img/business-people-present-the-business-project-e1638338287507.jpg) ;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 0.781);
+}
+.our-vision{
+    background-color: #fff;
+    padding: 25px;
+    margin-top: -30rem;
+    box-shadow: 0px 0px 10px 0px rgba(194, 194, 194, 0.438);
+}
+.our-vision1{
+    background-color:#16a8aa;
+    padding: 25px;
+    color: #fff;
+    margin-top: -30rem;
+    box-shadow: 0px 0px 10px 0px #16a8aa57;
+}
+.team-heading{
+    border-bottom: 4px #16a8aa solid;
+    color: #061938;
+}
+.team-absolute-hoverpage img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.team-absolute-hoverpage {
+    position: relative;
+}
+
+
+.team-absolute-hoverpage .hover-div {
+    position: absolute;
+    left: 0;
+    top: 0;
+   
+    display: block;
+    background-color: #14305d;
+    opacity: 0;
+    width: 100%;
+}
+.team-absolute-hoverpage  .hover-div:hover{
+    opacity: 0.75;
+    transition: 0.5s;
+}
+.team-social-links a{
+    color: white;
+    background-color: #16a8aa;
+    border-radius: 50px;
+    padding: 20px;
+}
+.team-social-links a:hover{
+    color:#16a8aa ;
+    background-color: #fff;
+    transition: 0.5s;
+
+}
+.team-social-links{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.team-title{
+    margin-top: -5%;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    margin-left: 3%;  
+    /* width: 80%;  */
+    padding: 17px 60px 12px 60px;
+    box-shadow: 0px 2px 5px 0px #d6d6d6d3;
+
+}
+@media screen and (max-width: 1200px) {
+    .team-title , .our-vision1 , .our-vision{
+        display: none;
+    }
+    .team-absolute-hoverpage{
+        margin-top: 30px;
+    }
+    .testimonials-bg-clr , .testimonials-bg-img{
+        height: 300px;
+    }
+}
+/* pricing  */
+
+.baner-img-pricing {
+    background-image: url('../img/two-business-partnership-coworkers-analysis-strategy-with-discussing-a-financial-planning-graph-and-e1638181148665-pgru0uh76lotlkdufb71qzsuposlsbw99mbmhji87k.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-pricing {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.pricing-baner-text {
+    padding-top: 200px;
 }
