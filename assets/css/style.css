@@ -1062,3 +1062,107 @@ html {
 .pricing-baner-text {
     padding-top: 200px;
 }
+/* team  */
+.baner-img-team {
+    background-image: url('../img/happy-businesspeople-with-raised-hands-sitting-on-chairs-at-training-in-hub-e1638180818226.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-team {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.team-baner-text {
+    padding-top: 200px;
+}
+
+/* faq  */
+.baner-img-faq {
+    background-image: url('../img/discussing-company-financial-statistics-e1638180733814.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-faq {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.faq-baner-text {
+    padding-top: 200px;
+}
+/* 404  */
+.baner-img-404 {
+    background-image: url('../img/cheerful-business-team-giving-each-other-high-five-to-success-while-working-in-the-modern-office-e1638180845539.jpg');
+    height: 650px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-404 {
+    opacity: 0.75;
+    height: 650px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.page404-baner-text {
+    padding-top: 150px;
+}
+.page404-baner-text h3{
+    font-size: 200px;
+    font-weight: 700;
+    color: #16a8aa;
+}
+.page404-baner-text h5{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+}
+.page404-baner-text p{
+    font-size: 15px;
+    color:rgb(192, 192, 192);
+}
+.baner-img-blog {
+    background-image: url('../img/top-view-of-tax-forms-digital-devices-and-stationery-on-desk-e1638181077831.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 100%;
+    background-size: cover;
+}
+
+.baner-color-blog {
+    opacity: 0.75;
+    height: 500px;
+    background-color: #061835;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.blog-baner-text {
+    padding-top: 200px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 2rem 0rem;
+}
+.blog-btn{
+    background-color: #16a8aa;
+    color: white;
+    padding: 20px 92px 20px 92px;   
+}
+.blog-btn:hover{
+    background-color: #14305d;
+   color: white;
+   transition: 0.5s;
+}
