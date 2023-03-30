@@ -380,6 +380,7 @@ html {
     border-radius: 100%;
     line-height: 50px;
     padding: 20px;
+    width: 89px;
 }
 
 .border-div {
@@ -699,9 +700,9 @@ html {
 }
 
 .baner-color-service {
-    opacity: 0.75;
-    height: 500px;
     background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -716,7 +717,7 @@ html {
 }
 
 .Make-Appointment-container {
-    padding-top: 164px;
+    margin-top: 8%;
 
 }
 
@@ -893,9 +894,9 @@ html {
 }
 
 .baner-color-cases {
-    opacity: 0.75;
-    height: 500px;
     background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -942,9 +943,9 @@ html {
 }
 
 .baner-color-about {
-    opacity: 0.75;
-    height: 500px;
     background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -1053,9 +1054,9 @@ html {
 }
 
 .baner-color-pricing {
-    opacity: 0.75;
-    height: 500px;
     background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -1072,9 +1073,9 @@ html {
 }
 
 .baner-color-team {
-    opacity: 0.75;
-    height: 500px;
     background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -1092,9 +1093,9 @@ html {
 }
 
 .baner-color-faq {
-    opacity: 0.75;
-    height: 500px;
     background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -1111,9 +1112,9 @@ html {
 }
 
 .baner-color-404 {
-    opacity: 0.75;
-    height: 650px;
     background-color: #061835;
+    height: 650px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -1143,9 +1144,9 @@ html {
 }
 
 .baner-color-blog {
-    opacity: 0.75;
-    height: 500px;
     background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -1194,4 +1195,88 @@ html {
     padding: 40px;
     color: #fff;
  }
- 
+ .baner-img-singelblog{
+    background-image: url('../img/top-view-of-tax-forms-digital-devices-and-stationery-on-desk-e1638181077831.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+ }
+ .baner-color-singelblog{
+    background-color: #061835;
+    height: 500px;
+    opacity: 0.8;
+ }
+ .singelblog-baner-text{
+    padding: 40px;
+    color: #fff;
+    padding-top: 13%;
+ }
+ .single-blog-links i{
+    margin:0px 10px 10px 10px;
+    background-color: #16a8aa;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 10px 10px 13px;
+    width: 40px;
+ }
+ .single-blog-links i:hover{
+   
+    background-color:#14305d ;
+
+ }
+ .singleblog-line{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+    padding-bottom: 50px;
+ }
+ .singblog-form .form-control{
+    border-color: #dbe1e7;
+    padding: 0.75rem;
+ }
+ .singblog-form .form-control:focus{
+    border-color: #333;
+    box-shadow: 0 0 0 0 rgba(13,110,253,.25);
+ }
+ .singblog-form button{
+    background-color: #16a8aa;
+    color: white;
+    padding: 1rem 2rem;
+ }
+ .singblog-form button:hover{
+    background-color:#14305d;
+    color: white;
+transition: 0.5;
+ }
+ .baner-img-contact{
+    background-image: url('../img/business-team-collaboration-discussing-working-analysis-with-financial-data-and-marketing-growth-e1638181040353.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+ }
+ .media i{
+    background-color: #16a8aa;
+    padding: 23px;
+    color: white;
+    font-size: 30px;
+ }
+ .contact-links i{
+background-color:#16a8aa;
+color: white;
+margin:0px 10px 10px 10px;
+border-radius: 50%;
+padding: 10px 10px 10px 13px;
+width: 40px;
+ }
+ .contact-links a .clr-change{
+    background-color:#14305d;
+color: white;
+ }
+ .contact-links i:hover{
+    background-color:#14305d;
+    color: white;
+    transition: 0.5s;
+ }
+ .contact-links a .clr-change:hover{
+    background-color:#16a8aa;
+color: white;
+transition: 0.5s;
+ }
