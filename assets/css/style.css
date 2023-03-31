@@ -116,8 +116,10 @@ html {
 }
 
 #baneer-img {
-    background-image: url('../img/business-meeting-in-modern-conference-room-e1638180914840.jpg');
-    position: relative;
+        background-image: url(../img/business-meeting-in-modern-conference-room-e1638180914840.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: center;
 }
 
 #position {
