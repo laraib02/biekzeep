@@ -663,9 +663,9 @@ html {
 }
 
 @media screen and (max-width: 1200px) {
-
-    #baneer-color,
-    #position {
+    /* #position, */
+    #baneer-color
+    {
         display: none;
     }
 
@@ -720,6 +720,7 @@ html {
 
 .Make-Appointment-container {
     margin-top: 8%;
+    padding-top: 13%;
 
 }
 
