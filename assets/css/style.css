@@ -663,7 +663,7 @@ html {
 }
 
 @media screen and (max-width: 1200px) {
-    /* #position, */
+    #position,
     #baneer-color
     {
         display: none;
